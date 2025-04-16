@@ -14,4 +14,4 @@ lower_tokens = [word.lower() for word in raw_tokens]
 #         print(word)
 
 our_text = nltk.text.Text(lower_tokens)
-print(our_text)
+print(our_text.count('veces'))
